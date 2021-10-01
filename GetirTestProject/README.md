@@ -1,1 +1,1 @@
-I built project using appium. I also used Gauge to conform to BDD
+I built project using Appium. I also used Gauge to conform to BDD

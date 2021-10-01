@@ -5,13 +5,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class ClickPage extends BaseTest{
 
-    @Step("Click on the element with <id>")
-    public void clickById(String id){
+    @Step("Click on element with id <id>")
+    public void clickById(String id) {
         appiumFluentWait.until(ExpectedConditions.elementToBeClickable(appiumDriver.findElement(By.id(id))));
-        appiumDriver.findElement(By.id(id));
+        appiumDriver.findElement(By.id(id)).click();
     }
 
-    @Step("Click on element with <xpath>")
+    @Step("Click on element with xpath <xpath>")
     public void clickByXpath(String xpath){
         appiumFluentWait.until(ExpectedConditions.elementToBeClickable(appiumDriver.findElement(By.xpath(xpath))));
         appiumDriver.findElement(By.xpath(xpath)).click();

@@ -12,6 +12,7 @@ Case 1
 *User deletes products from basket
 *"10" seconds wait
 
+
 Case 2
 ------------
 *User should pass onboarding screens

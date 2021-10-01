@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class ControlPage extends BaseTest{
 
-    @Step("Control of 'You are on the home page'")
+    @Step("Control of You are on the home page")
     public void checkHomePage(){
         Assert.assertNotEquals("You are not on the home page",
                 appiumDriver.findElement(By.id("com.allandroidprojects.getirsample:id/action_notifications")),

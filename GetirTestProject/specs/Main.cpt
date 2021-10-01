@@ -1,0 +1,30 @@
+Created by KUTLUHAN DAS on 30.09.2021
+
+# User should pass onboarding screens
+*Click on the element with "com.allandroidprojects.getirsample:id/btn_skip"
+# User checks if home page exists or not
+* Control of 'You are on the home page'
+# User changes category to ‘Water’
+*Click on element with "//*[@content-desc='Water']"
+# User open first product detail
+*Click on element with "//*[@resource-id='com.allandroidprojects.getirsample:id/cardview'][1]"
+# User adds this product to basket
+*Click on the element with "com.allandroidprojects.getirsample:id/text_action_bottom1"
+# User goes to basket and control added product and price
+*User goes to element with "com.allandroidprojects.getirsample:id/text_action_bottom2" and checks "//*[@resource-id='com.allandroidprojects.getirsample:id/recyclerview']/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.TextView[1]" and "//*[@resource-id='com.allandroidprojects.getirsample:id/recyclerview']/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.TextView[3]"
+# User deletes products from basket
+*Click on both elements with "//*[@resource-id='com.allandroidprojects.getirsample:id/layout_action1']"
+
+
+# User opens the menu in the left
+*Click on element with "//*[@content-desc='Open navigation drawer']"
+# User go to category ‘Baby Care’
+*Click on element with "//*[@text = 'Baby Care']"
+# User open third product detail
+*Click on element with "//*[@resource-id='com.allandroidprojects.getirsample:id/cardview'][3]"
+# User checks price of the product statically
+*User checks the prices of element with "//*[@text = '$1,98']"
+# User goes back to category detail page
+*User returns to previous page
+# User controls page existence
+*Checking if element with "//*[@content-desc = 'Baby Care']" is selected

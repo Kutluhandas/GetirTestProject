@@ -1,0 +1,44 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1086milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1086"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62555"}
+{"logLevel":"info","message":"Listening on port:62555"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'ControlPage.checkHomePage' and 'ControlPage.checkHomePage'"}
+{"logLevel":"debug","message":"Found Control of 'You are on the home page' in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ClickPage.clickByXpath' and 'ClickPage.clickByXpath'"}
+{"logLevel":"debug","message":"Found Click on element with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'NavigatePage.previousPage' and 'NavigatePage.previousPage'"}
+{"logLevel":"debug","message":"Found User returns to previous page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ClickPage.checkProductAndPrices' and 'ClickPage.checkProductAndPrices'"}
+{"logLevel":"debug","message":"Found User goes to element with {} and checks {} and {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ControlPage.checkPrices' and 'ControlPage.checkPrices'"}
+{"logLevel":"debug","message":"Found User checks the prices of element with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ClickPage.clickById' and 'ClickPage.clickById'"}
+{"logLevel":"debug","message":"Found Click on the element with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ControlPage.CategoryPageControl' and 'ControlPage.CategoryPageControl'"}
+{"logLevel":"debug","message":"Found Checking if element with {} is selected in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ClickPage.click2ByXpath' and 'ClickPage.click2ByXpath'"}
+{"logLevel":"debug","message":"Found Click on both elements with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WaitPage.waitForSecond' and 'WaitPage.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} seconds wait in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tUser checks the prices of element with {} : public void checkPrices(String xpath)"}
+{"logLevel":"debug","message":"\tClick on element with {} : public void clickByXpath(String xpath)"}
+{"logLevel":"debug","message":"\tChecking if element with {} is selected : public void CategoryPageControl(String xpath)"}
+{"logLevel":"debug","message":"\tClick on both elements with {} : public void click2ByXpath(String xpath)"}
+{"logLevel":"debug","message":"\tUser returns to previous page : public void previousPage()"}
+{"logLevel":"debug","message":"\tClick on the element with {} : public void clickById(String id)"}
+{"logLevel":"debug","message":"\tControl of 'You are on the home page' : public void checkHomePage()"}
+{"logLevel":"debug","message":"\tUser goes to element with {} and checks {} and {} : public void checkProductAndPrices(String id, String xpath1, String xpath2)"}
+{"logLevel":"debug","message":"\t{} seconds wait : public void waitForSecond(Long x) throws InterruptedException"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
